@@ -1,6 +1,6 @@
 {
   "name": "vue-file-change-upload",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Vue file change upload",
   "main": "src/FileChangeUpload.vue",
   "scripts": {

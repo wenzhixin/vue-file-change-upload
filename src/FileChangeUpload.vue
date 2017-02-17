@@ -56,7 +56,6 @@ export default {
       let form = new FormData()
       let xhr = new XMLHttpRequest()
       try {
-        form.append('Content-Type', file.type || 'application/octet-stream')
         form.append(this.name, file)
         for(let name in this.data) {
           form.append(name, this.data[name])
