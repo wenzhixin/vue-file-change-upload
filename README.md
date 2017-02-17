@@ -63,6 +63,7 @@ npm install vue-file-change-upload
 * accept: String
 * multiple: String
 * headers: Object, The headers send to server
+* data: Object, The data send to server
 * method: String, Default is 'POST'
 
 ### events
