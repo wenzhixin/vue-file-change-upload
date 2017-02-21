@@ -47,7 +47,7 @@ export default {
           this.$emit('onFileError', this.files, err)
         })
       } else {
-        new Error('No files to upload for this field')
+        let err = new Error('No files to upload for this field')
         this.$emit('onFileError', this.files, err)
       }
     },

@@ -69,6 +69,7 @@ npm install vue-file-change-upload
 ### events
 
 * onAllFilesUploaded: Trigger when all files uploaded
+* onFileUpload: Trigger when one file uploaded
 * beforeFileUpload: Trigger before one file upload
 * onFileProgress: Trigger when file uploading
 * afterFileUpload: Trigger after one file upload
